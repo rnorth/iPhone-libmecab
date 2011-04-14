@@ -1,15 +1,28 @@
-h1. 形態素解析エンジンMecab on iPhone（Static Library版）
+h1. 形態素解析エンジンMecab on iPhone（Cocoa Static Library版）
 
-iPhoneにStatic Libraryとして追加したMecabを利用して、文字列の形態素解析を行うサンプルアプリケーションです。
+形態素解析エンジン Mecab を iPhone 上で利用するサンプルアプリケーションです。
+Mecab を Cocoa Touch Static Libaray としてビルドしています。
 
-!http://s3.flcl.jp/libmecab_screenshot_1.png!
+!/FLCLjp/iPhone-libmecab/raw/master/screenshot.png!
 
 h2. ビルド方法
 
-# mecab/mecab.xcodeprojを開きます。
+h3. xcode 4
+
+# LibMecabSample/LibMecabSample.xcodeproj を開きます。
+# ビルドターゲットで LibMecabSample を選びビルドします。
+
+h3. xcode 3
+
+# mecab/mecab.xcodeproj を開きます。
 # ターゲット（Device/Simulator）、構成を選びビルドします。
-# LibMecabSample/LibMecabSample.xcodeprojを開きます。
+# LibMecabSample/LibMecabSample.xcodeproj を開きます。
 # 先ほどビルドしたものと同じターゲット、構成でビルドします。
+
+h2. ライセンス
+
+Mecab およびその関連ファイルについては、各ライブラリーのライセンスに従いご利用ください。
+サンプルアプリケーションについてはライセンスなどの制限は設けておりません。ご自由にご利用ください。
 
 h2. 謝辞
 
